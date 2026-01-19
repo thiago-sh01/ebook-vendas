@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corpo em Modo Turbo | Plano de 30 Dias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        .cta-button {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(249, 115, 22, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="gradient-bg text-white py-16 px-6 text-center border-b-4 border-orange-500">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-orange-500 text-sm font-bold py-1 px-3 rounded-full uppercase tracking-wider">Método Exclusivo</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight">
+                Ative o seu <span class="text-orange-500 italic">Modo Turbo</span> e transforme seu físico em 30 dias.
+            </h1>
+            <p class="text-xl mt-6 text-gray-300">
+                O guia definitivo para emagrecer e ganhar massa muscular para quem tem rotina corrida e pouco tempo.
+            </p>
+            <div class="mt-10">
+                <a href="#comprar" class="cta-button bg-orange-500 text-white text-xl font-bold py-4 px-8 rounded-lg inline-block shadow-lg">
+                    QUERO ATIVAR MEU MODO TURBO AGORA!
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 px-6 bg-white text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900">Cansado de dietas que só duram até quarta-feira?</h2>
+            <p class="mt-4 text-lg text-gray-600">
+                Você não falha por falta de vontade, mas por tentar seguir rotinas de atletas profissionais. O <strong>Corpo em Modo Turbo</strong> foi feito para a vida real.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-gray-100">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-orange-500">
+                <i class="fas fa-clock text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Treinos de 30 Min</h3>
+                <p class="text-gray-600">Exercícios intensos que queimam gordura mesmo após o treino, sem precisar morar na academia.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-orange-500">
+                <i class="fas fa-utensils text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Comida de Verdade</h3>
+                <p class="text-gray-600">Aprenda a comer arroz, feijão e carne do jeito certo. Sem dietas restritivas de alface e água.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-orange-500">
+                <i class="fas fa-check-double text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Checklist Diário</h3>
+                <p class="text-gray-600">O passo a passo do que fazer desde o momento que acorda até a hora de dormir.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="comprar" class="py-20 px-6 text-center bg-white">
+        <div class="max-w-2xl mx-auto border-2 border-dashed border-gray-300 p-10 rounded-2xl">
+            <h2 class="text-2xl font-bold text-gray-500 line-through">De R$ 97,00</h2>
+            <h3 class="text-5xl font-black text-gray-900 mt-2">Por apenas R$ 29,90</h3>
+            <p class="mt-4 text-gray-600 italic text-sm">* Pagamento único. Acesso imediato no seu e-mail.</p>
+            
+            <button onclick="irParaCheckout()" class="cta-button mt-8 w-full bg-orange-500 text-white text-2xl font-bold py-6 rounded-xl shadow-2xl">
+                EU QUERO O PLANO DE 30 DIAS!
+            </button>
+            
+            <div class="mt-6 flex justify-center space-x-4 text-gray-400">
+                <i class="fab fa-cc-visa text-3xl"></i>
+                <i class="fab fa-cc-mastercard text-3xl"></i>
+                <i class="fas fa-pix text-3xl"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-6 text-center">
+        <div class="max-w-2xl mx-auto">
+            <i class="fas fa-shield-alt text-orange-500 text-5xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-2">Garantia Blindada</h3>
+            <p class="text-gray-400 mb-8">Teste por 7 dias. Se não gostar dos resultados, devolvemos 100% do seu dinheiro. O risco é nosso.</p>
+            <hr class="border-gray-800 mb-8">
+            <p class="text-gray-500 text-sm">© 2026 Corpo em Modo Turbo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        function irParaCheckout() {
+            window.location.href = "https://pay.cakto.com.br/ageqkcu_733034";
+        }
+    </script>
+</body>
+</html>
