@@ -1,4 +1,4 @@
 
   function irParaCheckout() {
-    windows.location.href = "https://pay.cakto.com.br/ageqkcu_733034";
+    window.location.href = "https://pay.cakto.com.br/ageqkcu_733034";
   };
