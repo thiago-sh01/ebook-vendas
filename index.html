@@ -7,31 +7,15 @@
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
-  <style>
-    body {
-      background: linear-gradient(180deg, #0f172a, #020617);
-    }
-    .cta {
-      transition: all 0.3s ease;
-    }
-    .cta:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 30px rgba(249,115,22,0.6);
-    }
-    .glow {
-      box-shadow: 0 0 25px rgba(249,115,22,0.35);
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
 </head>
 
 <body class="text-gray-200 font-sans">
 
-<!-- HERO -->
 <header class="py-20 px-6 border-b border-orange-500/30">
   <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
 
-    <!-- TEXTO -->
     <div>
       <span class="bg-orange-500 text-black px-4 py-1 rounded-full font-bold uppercase text-sm">
         Método Prático e Realista
@@ -55,7 +39,6 @@
       </div>
     </div>
 
-    <!-- IMAGEM DO EBOOK -->
     <div class="flex justify-center">
       <img 
         src="img/ebook-image.png"
@@ -67,8 +50,6 @@
   </div>
 </header>
 
-
-<!-- DOR -->
 <section class="py-16 px-6 text-center bg-slate-900">
   <div class="max-w-3xl mx-auto">
     <h2 class="text-3xl font-bold mb-4">
@@ -81,7 +62,6 @@
   </div>
 </section>
 
-<!-- BENEFÍCIOS -->
 <section class="py-20 px-6">
   <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
@@ -112,7 +92,6 @@
   </div>
 </section>
 
-<!-- PARA QUEM É -->
 <section class="py-20 px-6 bg-slate-900">
   <div class="max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-10">
@@ -128,7 +107,6 @@
   </div>
 </section>
 
-<!-- OFERTA -->
 <section id="oferta" class="py-24 px-6 text-center">
   <div class="max-w-2xl mx-auto bg-slate-900 p-10 rounded-3xl border border-orange-500/40">
 
@@ -157,7 +135,6 @@
   </div>
 </section>
 
-<!-- GARANTIA -->
 <footer class="py-16 px-6 text-center bg-slate-950">
   <div class="max-w-xl mx-auto">
     <i class="fas fa-shield-alt text-orange-500 text-5xl mb-4"></i>
@@ -174,12 +151,5 @@
     </p>
   </div>
 </footer>
-
-<script>
-  function irParaCheckout() {
-    windows.location.href = "https://pay.cakto.com.br/ageqkcu_733034";
-  }
-</script>
-
 </body>
 </html>
